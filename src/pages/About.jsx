@@ -7,12 +7,12 @@ const PRINCIPLES = [
   {
     icon: SearchCode,
     title: 'Reproduce before guessing',
-    text: 'I don’t change a live enterprise account until I can reproduce the issue and read the evidence — logs, API responses, SQL queries and SSO traces. Day to day: Jira for the case, Postman for the API and SQL to confirm the data.',
+    text: 'I don’t change a live enterprise account until I can reproduce the issue and read the evidence: logs, API responses, SQL queries and SSO traces. Day to day: Jira for the case, Postman for the API and SQL to confirm the data.',
   },
   {
     icon: Headphones,
     title: 'Explain it in plain language',
-    text: 'Customers get a clear, jargon-free update at every step: what broke, what I’m doing and when they’ll hear back. I keep the ticket and the chat in sync so nobody chases the same case twice — Jira, Slack, Teams and Genesys Cloud.',
+    text: 'Customers get a clear, jargon-free update at every step: what broke, what I’m doing and when they’ll hear back. I keep the ticket and the chat in sync so nobody chases the same case twice: Jira, Slack, Teams and Genesys Cloud.',
   },
   {
     icon: GraduationCap,
@@ -35,7 +35,7 @@ export default function About() {
         eyebrow="Step 01 · About"
         title="Who I"
         highlight="am"
-        description="Self-taught in development and a fast learner — I grow through repetition, logic and teamwork, and I live by one idea: never stop learning."
+        description="Self-taught in development and a fast learner. I grow through repetition, logic and teamwork, and I live by one idea: never stop learning."
       />
 
       <section className="section" style={{ paddingTop: 0 }}>
@@ -46,7 +46,7 @@ export default function About() {
               <div className="prose" style={{ marginTop: 14, maxWidth: 'none' }}>
                 <p>
                   I’m a <strong>Technical Support Specialist</strong> (L1/L2) with 4+ years supporting enterprise
-                  SaaS and custom CPQ platforms. I diagnose, reproduce and resolve production issues — reading
+                  SaaS and custom CPQ platforms. I diagnose, reproduce and resolve production issues, reading
                   system logs, telemetry and cloud diagnostics to turn a vague customer report into a reproducible
                   case and a permanent fix.
                 </p>
@@ -68,7 +68,7 @@ export default function About() {
               <span className="bento__label">Languages</span>
               <h3 className="bento__title">Bilingual support</h3>
               <p className="bento__text">
-                Written and spoken across US, Canada and LATAM accounts — clear updates, no translation friction.
+                Written and spoken across US, Canada and LATAM accounts: clear updates, no translation friction.
               </p>
 
               <div style={{ display: 'grid', gap: 16, marginTop: 20 }}>

@@ -10,7 +10,7 @@ export default function Experience() {
         eyebrow="Step 03 · Experience"
         title="Where I have"
         highlight="worked"
-        description="Four years keeping enterprise production running under SLA — from bilingual front-line support to L1/L2 engineering-adjacent troubleshooting."
+        description="Four years keeping enterprise production running under SLA, from bilingual front-line support to L1/L2 engineering-adjacent troubleshooting."
         meta={['4+ years', 'Enterprise SaaS', 'CPQ', 'US · Canada · LATAM']}
       />
 

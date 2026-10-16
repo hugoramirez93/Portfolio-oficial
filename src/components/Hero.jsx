@@ -46,7 +46,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero__role">
-            {personalInfo.role} <b>({personalInfo.roleLevel})</b> — {personalInfo.roleFocus}
+            {personalInfo.role} <b>({personalInfo.roleLevel})</b> · {personalInfo.roleFocus}
           </p>
 
           <p className="hero__typed" aria-live="off">

@@ -72,7 +72,7 @@ export default function Home() {
             eyebrow="The guided tour"
             title="Seven steps through my"
             highlight="work"
-            description="Follow it in order — each page ends with a link to the next, so you never lose your place."
+            description="Follow it in order: each page ends with a link to the next, so you never lose your place."
           />
           <GuidedPath />
         </div>

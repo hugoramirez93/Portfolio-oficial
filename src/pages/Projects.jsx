@@ -14,7 +14,7 @@ export default function Projects() {
         eyebrow="Step 05 · Projects"
         title="Things I have"
         highlight="built"
-        description="Full-stack and front-end work I shipped end to end — e-commerce with real payments, REST APIs and interface replicas."
+        description="Full-stack and front-end work I shipped end to end: e-commerce with real payments, REST APIs and interface replicas."
         meta={[`${projects.length} projects`, 'HTML', 'CSS', 'JavaScript', 'API']}
       />
 

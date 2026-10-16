@@ -6,7 +6,7 @@ export const personalInfo = {
   roleLevel: 'L1 / L2',
   roleFocus: 'Enterprise SaaS & CPQ',
   tagline:
-    'I keep enterprise SaaS products running — diagnosing, reproducing and resolving production issues before they reach the customer again.',
+    'I keep enterprise SaaS products running, diagnosing, reproducing and resolving production issues before they reach the customer again.',
   email: 'hugoo.ramirez493@gmail.com',
   phone: '+57 322 596 3903',
   location: 'Cali, Colombia',
@@ -19,7 +19,7 @@ export const personalInfo = {
     'Bilingual (English C1 / Spanish native) and currently completing a Bachelor\u2019s degree in Systems Engineering.',
   languages: [
     { name: 'Spanish', level: 'Native', value: 100 },
-    { name: 'English', level: 'C1 — Professional', value: 88 },
+    { name: 'English', level: 'C1 · Professional', value: 88 },
   ],
   social: {
     linkedin: 'https://www.linkedin.com/in/hugo-ramirezr',
@@ -130,7 +130,7 @@ export const toolMarquee = [
  */
 export const aiStack = {
   intro:
-    'I use AI assistants as a force multiplier, not a shortcut. They compress triage, documentation and code into minutes — while every diagnosis, reply and commit stays verified and owned by me.',
+    'I use AI assistants as a force multiplier, not a shortcut. They compress triage, documentation and code into minutes, while every diagnosis, reply and commit stays verified and owned by me.',
   tools: [
     { name: 'GitHub Copilot', badge: 'Co', desc: 'In-editor completion, refactors and test scaffolding.' },
     { name: 'ChatGPT', badge: 'GPT', desc: 'Troubleshooting, drafting and data analysis.' },
@@ -147,7 +147,7 @@ export const aiStack = {
     'Translating and tone-checking bilingual customer communication',
   ],
   devUses: [
-    'Scaffolding components and boilerplate — then reviewing every line',
+    'Scaffolding components and boilerplate, then reviewing every line',
     'Explaining unfamiliar or legacy code fast',
     'Writing, fixing and expanding tests; debugging with a second pair of eyes',
     'Refactoring, code review and documentation',
@@ -218,7 +218,7 @@ export const incidentCases = [
     title: 'Production sign-in outage',
     subtitle: 'Expired server certificate',
     problem:
-      'A production login outage traced to an expired TLS certificate on the application server — while the public site still presented a valid, separately renewed certificate.',
+      'A production login outage traced to an expired TLS certificate on the application server, while the public site still presented a valid, separately renewed certificate.',
     action:
       'Isolated the mismatch to the application-server certificate and guided the customer through installing the correct certificate and private key.',
     result: 'Restored access in ~31 hours.',

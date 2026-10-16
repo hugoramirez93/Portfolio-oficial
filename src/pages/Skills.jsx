@@ -28,7 +28,7 @@ export default function Skills() {
         eyebrow="Step 02 · Skills"
         title="Skills &"
         highlight="tools"
-        description="The toolkit behind every resolution — from triage and log analysis to cloud diagnostics and AI-assisted workflows."
+        description="The toolkit behind every resolution: from triage and log analysis to cloud diagnostics and AI-assisted workflows."
         meta={['L1 / L2 Support', 'Incident Management', 'Log Analysis', 'Cloud', 'SQL', 'AI-Assisted']}
       />
 

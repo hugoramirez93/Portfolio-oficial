@@ -32,7 +32,7 @@ export const journey = [
     path: '/skills',
     label: 'Skills',
     title: 'Skills & tools',
-    blurb: 'The toolkit behind every resolution — from triage and log analysis to AI-assisted workflows.',
+    blurb: 'The toolkit behind every resolution: from triage and log analysis to AI-assisted workflows.',
     icon: Wrench,
   },
   {
@@ -72,7 +72,7 @@ export const journey = [
     path: '/#contact',
     label: 'Contact',
     title: "Let's talk",
-    blurb: 'Send me a message or download my CV — I reply within one business day.',
+    blurb: 'Send me a message or download my CV. I reply within one business day.',
     icon: Mail,
   },
 ]
