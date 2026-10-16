@@ -24,7 +24,7 @@ export const personalInfo = {
   social: {
     linkedin: 'https://www.linkedin.com/in/hugo-ramirezr',
     github: 'https://github.com/hugoramirez93',
-    portfolio: 'https://portfolio-nine-phi.vercel.app',
+    portfolio: 'https://portfolio-oficial-roan.vercel.app',
   },
   resumeUrl: '/resume.pdf',
   cvUrl: '/cv.html',
