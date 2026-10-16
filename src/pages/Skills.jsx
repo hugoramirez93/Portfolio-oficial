@@ -79,12 +79,12 @@ export default function Skills() {
               </Reveal>
             ))}
 
-            <Reveal className="bento__cell b-3" delay={80} data-spotlight>
+            <Reveal className="bento__cell b-2" delay={80} data-spotlight>
               <h3 className="bento__title" style={{ marginTop: 0 }}>
                 <Sparkles size={16} aria-hidden="true" style={{ display: 'inline', marginRight: 8, color: 'var(--accent)' }} />
                 In support
               </h3>
-              <ul style={{ display: 'grid', gap: 9, marginTop: 14 }}>
+              <ul style={{ display: 'grid', gap: 8, marginTop: 12 }}>
                 {aiStack.supportUses.map((use) => (
                   <li
                     key={use}
@@ -97,12 +97,12 @@ export default function Skills() {
               </ul>
             </Reveal>
 
-            <Reveal className="bento__cell b-3" delay={140} data-spotlight>
+            <Reveal className="bento__cell b-2" delay={140} data-spotlight>
               <h3 className="bento__title" style={{ marginTop: 0 }}>
                 <Code2 size={16} aria-hidden="true" style={{ display: 'inline', marginRight: 8, color: 'var(--accent)' }} />
                 In development
               </h3>
-              <ul style={{ display: 'grid', gap: 9, marginTop: 14 }}>
+              <ul style={{ display: 'grid', gap: 8, marginTop: 12 }}>
                 {aiStack.devUses.map((use) => (
                   <li
                     key={use}
@@ -115,7 +115,29 @@ export default function Skills() {
               </ul>
             </Reveal>
 
-            <Reveal className="bento__cell b-6 card--glow" delay={200} data-spotlight>
+            <Reveal className="bento__cell b-2" delay={200} data-spotlight>
+              <h3 className="bento__title" style={{ marginTop: 0 }}>Daily habits</h3>
+              <ul style={{ display: 'grid', gap: 8, marginTop: 12 }}>
+                <li style={{ display: 'flex', gap: 9, alignItems: 'flex-start', fontSize: 13.5, color: 'var(--muted)', lineHeight: 1.6 }}>
+                  <span style={{ color: 'var(--accent)', flex: 'none' }}>→</span>
+                  <span>Clear reproduction steps before changing code/config.</span>
+                </li>
+                <li style={{ display: 'flex', gap: 9, alignItems: 'flex-start', fontSize: 13.5, color: 'var(--muted)', lineHeight: 1.6 }}>
+                  <span style={{ color: 'var(--accent)', flex: 'none' }}>→</span>
+                  <span>Verify fixes with logs/tests before closing tickets.</span>
+                </li>
+                <li style={{ display: 'flex', gap: 9, alignItems: 'flex-start', fontSize: 13.5, color: 'var(--muted)', lineHeight: 1.6 }}>
+                  <span style={{ color: 'var(--accent)', flex: 'none' }}>→</span>
+                  <span>Keep notes in plain Spanish/English for the team.</span>
+                </li>
+                <li style={{ display: 'flex', gap: 9, alignItems: 'flex-start', fontSize: 13.5, color: 'var(--muted)', lineHeight: 1.6 }}>
+                  <span style={{ color: 'var(--accent)', flex: 'none' }}>→</span>
+                  <span>Share learnings and small automations to save time.</span>
+                </li>
+              </ul>
+            </Reveal>
+
+            <Reveal className="bento__cell b-6 card--glow" delay={260} data-spotlight>
               <p style={{ fontSize: 14.5, lineHeight: 1.7, color: 'var(--ink-2)' }}>{aiStack.note}</p>
             </Reveal>
           </div>

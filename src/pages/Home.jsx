@@ -10,9 +10,10 @@ import Reveal from '../components/Reveal'
 import { personalInfo } from '../data/portfolio'
 
 const WORK = [
-  'Reproduce the issue, read the logs, confirm the root cause — then fix it for good.',
-  'Write the RCA and the rollout notes Engineering needs to ship a permanent change.',
-  'Keep customers updated in plain language at every stage, never in jargon.',
+  'Reproduce the issue, read the relevant logs and confirm the root cause before proposing a fix.',
+  'Document an RCA and clear rollout notes so Engineering can ship a permanent fix, not a workaround.',
+  'Keep customers updated in plain language at every stage with realistic next steps and timelines.',
+  'Verify the fix in a safe way and close the loop with clear evidence and learnings.',
 ]
 
 export default function Home() {
@@ -45,8 +46,8 @@ export default function Home() {
               Support, from the <span className="grad-text">command line up</span>
             </h2>
             <p className="card__text" style={{ marginTop: 16, maxWidth: '46ch' }}>
-              Most of my work happens where the truth is: logs, telemetry and API responses. Here is what a
-              typical investigation leaves behind.
+              Most of my work happens where the truth is: logs, telemetry and API responses. Here is how I
+              approach it day-to-day.
             </p>
 
             <ul className="bullets">
