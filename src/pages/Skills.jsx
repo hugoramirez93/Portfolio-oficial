@@ -1,11 +1,22 @@
-import { LifeBuoy, SearchCode, Server, Wrench, Code2, Sparkles, Check } from 'lucide-react'
+import { LifeBuoy, SearchCode, Server, Wrench, Code2, Sparkles, Check, CalendarCheck, SquareTerminal } from 'lucide-react'
 import PageHero from '../components/PageHero'
 import SectionHeading from '../components/SectionHeading'
 import ToolMarquee from '../components/ToolMarquee'
 import Reveal from '../components/Reveal'
+import { CopilotIcon, OpenAIIcon, GeminiIcon, ClaudeIcon, OpenCodeIcon } from '../components/icons'
 import { competencies, aiStack } from '../data/portfolio'
 
 const ICONS = { LifeBuoy, SearchCode, Server, Wrench, Code2 }
+
+/* Brand mark per AI tool (Codex has no official mark → terminal glyph). */
+const AI_ICONS = {
+  'GitHub Copilot': CopilotIcon,
+  ChatGPT: OpenAIIcon,
+  Gemini: GeminiIcon,
+  'Claude Code': ClaudeIcon,
+  OpenCode: OpenCodeIcon,
+  Codex: SquareTerminal,
+}
 
 /* Wide, wide, then three narrow cells — the bento rhythm. */
 const SPANS = ['b-3', 'b-3', 'b-2', 'b-2', 'b-2']
@@ -17,7 +28,7 @@ export default function Skills() {
         eyebrow="Step 02 · Skills"
         title="Skills &"
         highlight="tools"
-        description="The toolkit behind every resolution — from triage and log analysis to cloud diagnostics and AI-assisted workflows."
+        description="The toolkit behind every resolution: from triage and log analysis to cloud diagnostics and AI-assisted workflows."
         meta={['L1 / L2 Support', 'Incident Management', 'Log Analysis', 'Cloud', 'SQL', 'AI-Assisted']}
       />
 
@@ -33,10 +44,12 @@ export default function Skills() {
                   delay={i * 70}
                   data-spotlight
                 >
-                  <span className="icon-tile">
-                    <Icon size={19} aria-hidden="true" />
-                  </span>
-                  <h3 className="bento__title">{group.group}</h3>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                    <span className="icon-tile">
+                      <Icon size={19} aria-hidden="true" />
+                    </span>
+                    <h3 className="bento__title" style={{ margin: 0 }}>{group.group}</h3>
+                  </div>
                   <ul style={{ display: 'grid', gap: 9, marginTop: 14 }}>
                     {group.items.map((item) => (
                       <li
@@ -67,17 +80,22 @@ export default function Skills() {
           />
 
           <div className="bento">
-            {aiStack.tools.map((tool, i) => (
-              <Reveal className="bento__cell b-2" key={tool.name} delay={i * 60} data-spotlight>
-                <span className="ai-badge" aria-hidden="true">
-                  {tool.badge}
-                </span>
-                <b style={{ display: 'block', marginTop: 14, fontSize: 14.5, fontWeight: 700 }}>{tool.name}</b>
-                <span style={{ display: 'block', marginTop: 5, fontSize: 13, color: 'var(--muted)', lineHeight: 1.6 }}>
-                  {tool.desc}
-                </span>
-              </Reveal>
-            ))}
+            {aiStack.tools.map((tool, i) => {
+              const ToolIcon = AI_ICONS[tool.name] ?? Sparkles
+              return (
+                <Reveal className="bento__cell b-2" key={tool.name} delay={i * 60} data-spotlight>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+                    <span className="ai-badge" aria-hidden="true">
+                      <ToolIcon size={22} />
+                    </span>
+                    <b style={{ fontSize: 14.5, fontWeight: 700 }}>{tool.name}</b>
+                  </div>
+                  <span style={{ display: 'block', marginTop: 10, fontSize: 13, color: 'var(--muted)', lineHeight: 1.6 }}>
+                    {tool.desc}
+                  </span>
+                </Reveal>
+              )
+            })}
 
             <Reveal className="bento__cell b-2" delay={80} data-spotlight>
               <h3 className="bento__title" style={{ marginTop: 0 }}>
@@ -116,7 +134,10 @@ export default function Skills() {
             </Reveal>
 
             <Reveal className="bento__cell b-2" delay={200} data-spotlight>
-              <h3 className="bento__title" style={{ marginTop: 0 }}>Daily habits</h3>
+              <h3 className="bento__title" style={{ marginTop: 0 }}>
+                <CalendarCheck size={16} aria-hidden="true" style={{ display: 'inline', marginRight: 8, color: 'var(--accent)' }} />
+                Daily habits
+              </h3>
               <ul style={{ display: 'grid', gap: 8, marginTop: 12 }}>
                 <li style={{ display: 'flex', gap: 9, alignItems: 'flex-start', fontSize: 13.5, color: 'var(--muted)', lineHeight: 1.6 }}>
                   <span style={{ color: 'var(--accent)', flex: 'none' }}>→</span>

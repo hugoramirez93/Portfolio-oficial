@@ -20,7 +20,7 @@ export default function TerminalCard() {
           <i />
           <i />
         </span>
-        <span className="terminal__title">hugo@support — bash — 80×24</span>
+        <span className="terminal__title">hugo@support · bash · 80×24</span>
         <span className="terminal__title" style={{ marginLeft: 'auto' }}>
           <LiveClock />
         </span>

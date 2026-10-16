@@ -6,7 +6,7 @@ export const personalInfo = {
   roleLevel: 'L1 / L2',
   roleFocus: 'Enterprise SaaS & CPQ',
   tagline:
-    'I keep enterprise SaaS products running — diagnosing, reproducing and resolving production issues before they reach the customer again.',
+    'I keep enterprise SaaS products running, diagnosing, reproducing and resolving production issues before they reach the customer again.',
   email: 'hugoo.ramirez493@gmail.com',
   phone: '+57 322 596 3903',
   location: 'Cali, Colombia',
@@ -19,7 +19,7 @@ export const personalInfo = {
     'Bilingual (English C1 / Spanish native) and currently completing a Bachelor\u2019s degree in Systems Engineering.',
   languages: [
     { name: 'Spanish', level: 'Native', value: 100 },
-    { name: 'English', level: 'C1 — Professional', value: 88 },
+    { name: 'English', level: 'C1 · Professional', value: 88 },
   ],
   social: {
     linkedin: 'https://www.linkedin.com/in/hugo-ramirezr',
@@ -130,7 +130,7 @@ export const toolMarquee = [
  */
 export const aiStack = {
   intro:
-    'I use AI assistants as a force multiplier, not a shortcut. They compress triage, documentation and code into minutes — while every diagnosis, reply and commit stays verified and owned by me.',
+    'I use AI assistants as a force multiplier, not a shortcut. They compress triage, documentation and code into minutes, while every diagnosis, reply and commit stays verified and owned by me.',
   tools: [
     { name: 'GitHub Copilot', badge: 'Co', desc: 'In-editor completion, refactors and test scaffolding.' },
     { name: 'ChatGPT', badge: 'GPT', desc: 'Troubleshooting, drafting and data analysis.' },
@@ -147,7 +147,7 @@ export const aiStack = {
     'Translating and tone-checking bilingual customer communication',
   ],
   devUses: [
-    'Scaffolding components and boilerplate — then reviewing every line',
+    'Scaffolding components and boilerplate, then reviewing every line',
     'Explaining unfamiliar or legacy code fast',
     'Writing, fixing and expanding tests; debugging with a second pair of eyes',
     'Refactoring, code review and documentation',
@@ -218,7 +218,7 @@ export const incidentCases = [
     title: 'Production sign-in outage',
     subtitle: 'Expired server certificate',
     problem:
-      'A production login outage traced to an expired TLS certificate on the application server — while the public site still presented a valid, separately renewed certificate.',
+      'A production login outage traced to an expired TLS certificate on the application server, while the public site still presented a valid, separately renewed certificate.',
     action:
       'Isolated the mismatch to the application-server certificate and guided the customer through installing the correct certificate and private key.',
     result: 'Restored access in ~31 hours.',
@@ -266,6 +266,18 @@ export const incidentCases = [
  */
 export const education = [
   {
+    id: 'systems-engineering',
+    title: 'Systems Engineering (Ingeniería de Sistemas)',
+    institution: 'Fundación Universitaria San Mateo',
+    location: 'Cali, Colombia',
+    period: 'Expected Dec 2027',
+    type: 'Degree',
+    status: 'in-progress',
+    order: 1,
+    description:
+      'Ongoing degree focusing on software engineering, algorithms, databases, systems analysis and problem-solving.',
+  },
+  {
     id: 'ponaoinnovar',
     title: 'PONAO Innovar – Full Stack Web Development',
     institution: 'PONAO Innovar',
@@ -273,7 +285,7 @@ export const education = [
     period: 'Sep 2025 – Dec 2025',
     type: 'Bootcamp',
     status: 'completed',
-    order: 1,
+    order: 2,
     description:
       'Full-stack training with hands-on projects and collaborative development. Git workflows, REST APIs, JavaScript and modern front-end foundations.',
   },
@@ -284,7 +296,8 @@ export const education = [
     location: 'Colombia',
     period: 'Feb 2025 – Aug 2025',
     type: 'Bootcamp',
-    order: 2,
+    status: 'completed',
+    order: 3,
     description:
       'Backend & frontend fundamentals: HTML, CSS, JavaScript, Node.js, Express, Git, REST APIs, teamwork and agile methodology.',
   },
@@ -295,7 +308,8 @@ export const education = [
     location: 'Online',
     period: '2025',
     type: 'Course',
-    order: 3,
+    status: 'completed',
+    order: 4,
     description:
       'Practical projects covering responsive layouts, DOM manipulation, logic, debugging and writing clean, reusable code.',
   },
@@ -307,7 +321,7 @@ export const education = [
     period: 'Dec 2022 – 2023',
     type: 'Professional Certificate',
     status: 'completed',
-    order: 4,
+    order: 5,
     description:
       'Five-course path covering front-end foundations: Introduction to Front-End Development, Programming with JavaScript, Version Control, HTML & CSS in depth and JavaScript basics.',
   },
@@ -319,7 +333,7 @@ export const education = [
     period: '2025',
     type: 'Certification',
     status: 'completed',
-    order: 5,
+    order: 6,
     description:
       'Introduction to back-end development, Python fundamentals, data structures, databases basics and back-end architecture concepts.',
   },
@@ -331,22 +345,10 @@ export const education = [
     period: 'Sep 2023',
     type: 'Certification',
     status: 'completed',
-    order: 6,
+    order: 7,
     description:
       'Core JavaScript concepts, functions, loops, conditionals, arrays/objects and practical exercises to strengthen logic.',
     verify: 'https://coursera.org/verify/8EEUACPPH6WC',
-  },
-  {
-    id: 'systems-engineering',
-    title: 'Systems Engineering (Ingeniería de Sistemas)',
-    institution: 'Fundación Universitaria San Mateo',
-    location: 'Cali, Colombia',
-    period: 'Expected Dec 2027',
-    type: 'Degree',
-    status: 'in-progress',
-    order: 7,
-    description:
-      'Ongoing degree focusing on software engineering, algorithms, databases, systems analysis and problem-solving.',
   },
 ]
 

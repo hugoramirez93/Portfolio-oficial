@@ -39,7 +39,7 @@ export const SEO = {
     title: 'Skills & tools',
     shareTitle: 'Skills & tools — Support Engineering',
     description:
-      'Support engineering toolkit: incident management, root-cause analysis, log analysis, SQL and SSO/OIDC — plus AI-assisted workflows with GitHub Copilot, ChatGPT, Gemini, Claude Code and OpenCode.',
+      'Support engineering toolkit: incident management, root-cause analysis, log analysis, SQL and SSO/OIDC, plus AI-assisted workflows with GitHub Copilot, ChatGPT, Gemini, Claude Code and OpenCode.',
     image: '/og/skills.png',
   },
   '/experience': {
@@ -53,14 +53,14 @@ export const SEO = {
     title: 'Case Studies',
     shareTitle: 'Case Studies — Incidents, root cause to fix',
     description:
-      'Three real production incidents investigated end to end — SSO authentication failure, broken deep links and an expired-credential outage — with root cause and prevention.',
+      'Three real production incidents investigated end to end: SSO authentication failure, broken deep links and an expired-credential outage, with root cause and prevention.',
     image: '/og/case-studies.png',
   },
   '/projects': {
     title: 'Projects',
     shareTitle: 'Projects — Full-stack & front-end work',
     description:
-      'Full-stack and front-end projects built with React, Node.js, Angular and TypeScript — e-commerce platforms with real payments, REST APIs and UI replicas.',
+      'Full-stack and front-end projects built with React, Node.js, Angular and TypeScript: e-commerce platforms with real payments, REST APIs and UI replicas.',
     image: '/og/projects.png',
   },
   '/education': {

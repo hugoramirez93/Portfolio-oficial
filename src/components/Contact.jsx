@@ -300,7 +300,7 @@ export default function Contact() {
                 <div className="notice notice--ok" role="status">
                   <p>
                     <Check size={16} aria-hidden="true" />
-                    Message sent — thank you! I&apos;ll reply to {sentTo || 'your email'} within one
+                    Message sent. Thank you! I&apos;ll reply to {sentTo || 'your email'} within one
                     business day.
                   </p>
                   <button type="button" className="btn btn--ghost btn--sm" onClick={resetForm}>
