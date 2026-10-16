@@ -80,7 +80,7 @@ h4,
 .tl-role,
 .incident__title,
 .project__title,
-.edu-row__degree {
+.edu-item__title {
   font-family: var(--font-display);
 }
 

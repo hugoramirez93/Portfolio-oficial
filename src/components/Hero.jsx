@@ -46,7 +46,7 @@ export default function Hero() {
           </h1>
 
           <p className="hero__role">
-            {personalInfo.role} <b>({personalInfo.roleLevel})</b>
+            {personalInfo.role} <b>({personalInfo.roleLevel})</b> — {personalInfo.roleFocus}
           </p>
 
           <p className="hero__typed" aria-live="off">
@@ -93,12 +93,12 @@ export default function Hero() {
               />
               <figcaption className="portrait__badge">
                 <span className="status-dot" aria-hidden="true" />
-                <span>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: 2 }}>
                   <b>{personalInfo.roleFocus}</b>
-                  <span>
+                  <span style={{ color: 'var(--faint)' }}>
                     {personalInfo.location} · {personalInfo.timezone}
                   </span>
-                </span>
+                </div>
               </figcaption>
             </figure>
           </div>
