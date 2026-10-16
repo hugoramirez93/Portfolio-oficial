@@ -266,6 +266,18 @@ export const incidentCases = [
  */
 export const education = [
   {
+    id: 'systems-engineering',
+    title: 'Systems Engineering (Ingeniería de Sistemas)',
+    institution: 'Fundación Universitaria San Mateo',
+    location: 'Cali, Colombia',
+    period: 'Expected Dec 2027',
+    type: 'Degree',
+    status: 'in-progress',
+    order: 1,
+    description:
+      'Ongoing degree focusing on software engineering, algorithms, databases, systems analysis and problem-solving.',
+  },
+  {
     id: 'ponaoinnovar',
     title: 'PONAO Innovar – Full Stack Web Development',
     institution: 'PONAO Innovar',
@@ -273,7 +285,7 @@ export const education = [
     period: 'Sep 2025 – Dec 2025',
     type: 'Bootcamp',
     status: 'completed',
-    order: 1,
+    order: 2,
     description:
       'Full-stack training with hands-on projects and collaborative development. Git workflows, REST APIs, JavaScript and modern front-end foundations.',
   },
@@ -284,7 +296,8 @@ export const education = [
     location: 'Colombia',
     period: 'Feb 2025 – Aug 2025',
     type: 'Bootcamp',
-    order: 2,
+    status: 'completed',
+    order: 3,
     description:
       'Backend & frontend fundamentals: HTML, CSS, JavaScript, Node.js, Express, Git, REST APIs, teamwork and agile methodology.',
   },
@@ -295,7 +308,8 @@ export const education = [
     location: 'Online',
     period: '2025',
     type: 'Course',
-    order: 3,
+    status: 'completed',
+    order: 4,
     description:
       'Practical projects covering responsive layouts, DOM manipulation, logic, debugging and writing clean, reusable code.',
   },
@@ -307,7 +321,7 @@ export const education = [
     period: 'Dec 2022 – 2023',
     type: 'Professional Certificate',
     status: 'completed',
-    order: 4,
+    order: 5,
     description:
       'Five-course path covering front-end foundations: Introduction to Front-End Development, Programming with JavaScript, Version Control, HTML & CSS in depth and JavaScript basics.',
   },
@@ -319,7 +333,7 @@ export const education = [
     period: '2025',
     type: 'Certification',
     status: 'completed',
-    order: 5,
+    order: 6,
     description:
       'Introduction to back-end development, Python fundamentals, data structures, databases basics and back-end architecture concepts.',
   },
@@ -331,22 +345,10 @@ export const education = [
     period: 'Sep 2023',
     type: 'Certification',
     status: 'completed',
-    order: 6,
+    order: 7,
     description:
       'Core JavaScript concepts, functions, loops, conditionals, arrays/objects and practical exercises to strengthen logic.',
     verify: 'https://coursera.org/verify/8EEUACPPH6WC',
-  },
-  {
-    id: 'systems-engineering',
-    title: 'Systems Engineering (Ingeniería de Sistemas)',
-    institution: 'Fundación Universitaria San Mateo',
-    location: 'Cali, Colombia',
-    period: 'Expected Dec 2027',
-    type: 'Degree',
-    status: 'in-progress',
-    order: 7,
-    description:
-      'Ongoing degree focusing on software engineering, algorithms, databases, systems analysis and problem-solving.',
   },
 ]
 
