@@ -237,7 +237,7 @@
       /* --------------------------- stats strip -------------------- */
       .stats {
         display: grid;
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         border-bottom: 1px solid var(--line);
         background: linear-gradient(180deg, #f8fbff, #ffffff);
       }
@@ -740,10 +740,8 @@
 
       <section class="stats">
         <div class="stat"><b>4+</b><span class="lbl">Years in support</span></div>
-        <div class="stat"><b>92%</b><span class="lbl">CSAT sustained</span></div>
-        <div class="stat"><b>5 min</b><span class="lbl">First response</span></div>
+        <div class="stat"><b>92%</b><span class="lbl">CSAT</span></div>
         <div class="stat"><b>20+</b><span class="lbl">Cases / day</span></div>
-        <div class="stat"><b>30+</b><span class="lbl">Incidents &amp; RCAs</span></div>
         <div class="stat"><b>15+</b><span class="lbl">Enterprise accounts</span></div>
       </section>
 
@@ -754,10 +752,8 @@
             <p class="summary">
               Technical Support Specialist with <strong>4+ years</strong> of L1/L2 support for enterprise SaaS and CPQ
               platforms. Strong in troubleshooting, <strong>log analysis, root-cause analysis (RCA)</strong> and incident
-              management across cloud environments. Sustains <strong>92% CSAT</strong> and a
-              <strong>5-minute first-response SLA</strong> across <strong>20+ cases per day</strong>, with
-              <strong>30+ incidents documented</strong> for <strong>15+ enterprise accounts</strong> in the US, Canada
-              and LATAM.
+              management across cloud environments. Sustains <strong>92% CSAT</strong> while resolving <strong>20+
+              cases per day</strong> for <strong>15+ enterprise accounts</strong> in the US, Canada and LATAM.
             </p>
           </section>
 
@@ -809,31 +805,6 @@
                 <li>Handled high-volume technical and customer support across chat, phone and email, resolving 20+ daily cases for Uber Eats and VRBO.</li>
                 <li>Troubleshot account access, billing, payment-gateway failures, refunds and account restrictions, plus password resets and security cases.</li>
               </ul>
-            </div>
-          </section>
-
-          <section class="section">
-            <h2 class="section-title">Selected Incident Investigations (RCA)</h2>
-
-            <div class="case">
-              <span class="badge">Critical</span>
-              <span class="case-title">Production sign-in outage</span>
-              <span class="case-cat">Infrastructure · TLS</span>
-              <div class="case-line">Root cause: an expired application-server TLS certificate. Led the fix and restored access in ~31 hours.</div>
-            </div>
-
-            <div class="case high">
-              <span class="badge high">High</span>
-              <span class="case-title">Quote-creation failure</span>
-              <span class="case-cat">Integration · Data</span>
-              <div class="case-line">Isolated a missing account reference blocking quote creation and restored the affected records.</div>
-            </div>
-
-            <div class="case high">
-              <span class="badge high">High</span>
-              <span class="case-title">SSO authentication upgrade</span>
-              <span class="case-cat">Identity · SSO</span>
-              <div class="case-line">A Keycloak 26 upgrade broke first login; corrected OIDC scopes and IdP mappers and documented the fix.</div>
             </div>
           </section>
         </div>
